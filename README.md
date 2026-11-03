@@ -189,25 +189,7 @@ The repository already contains the server block in `nginx/default`. Copy it to 
 ```bash
 cd ~/Junior-devops-assignment
 sudo cp nginx/default /etc/nginx/sites-available/default
-```
 
-The configuration contains:
-
-```nginx
-server {
-    listen 80;
-    server_name _;
-
-    location / {
-        proxy_pass http://127.0.0.1:3000;
-        proxy_http_version 1.1;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-}
-```
 
 ### 7.3 Test and reload Nginx
 
@@ -291,7 +273,6 @@ The current `Jenkinsfile` defines these stages:
 
 For the deployment stage to work, the Jenkins service account must be able to access Node.js, npm, PM2, and the project workspace. A successful manual PM2 command under a different Ubuntu user does not by itself prove that PM2 is available to the Jenkins service account.
 
-**Trigger note:** The committed `Jenkinsfile` defines the three stages above but does not itself define a GitHub webhook/Poll SCM trigger or email notification. Automatic triggering must be enabled separately in the Jenkins job configuration (for example, Poll SCM) or by configuring a reachable GitHub webhook endpoint. Email notifications require additional Jenkins mail configuration and pipeline/job settings; do not claim them unless they have been tested.
 
 ## 9. Public HTTPS access using Cloudflare Quick Tunnel
 

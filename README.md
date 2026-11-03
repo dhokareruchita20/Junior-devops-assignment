@@ -137,7 +137,7 @@ cd Junior-devops-assignment
 npm install
 ```
 
-### Step 5: Start Application Using PM2
+### Step 5: Install and Start Application Using PM2
 
 ```bash
 pm2 start ecosystem.config.js

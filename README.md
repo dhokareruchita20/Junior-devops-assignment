@@ -370,9 +370,5 @@ The following screenshots demonstrate the project implementation.
 <img width="613" height="265" alt="image" src="https://github.com/user-attachments/assets/0c8591d2-4461-4b53-8745-821baf30fefe" />
 
 
-### 6. Server Resource Monitoring
-<img width="1280" height="242" alt="image" src="https://github.com/user-attachments/assets/8f68fe74-d724-4845-ab57-fe07c831d2a2" />
-
-
 
 **GitHub:** https://github.com/dhokareruchita20

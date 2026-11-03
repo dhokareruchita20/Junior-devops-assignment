@@ -349,22 +349,29 @@ sudo systemctl status jenkins
 The following screenshots demonstrate the project implementation.
 
 ### 1. Working Node.js Application
-![Application Screenshot](screenshots/01-application.png)
+<img width="401" height="248" alt="image" src="https://github.com/user-attachments/assets/cf8bca1d-e350-416b-ba9c-6e31afff6ef5" />
+
 
 ### 2. PM2 Application Status
-![PM2 Status](screenshots/02-pm2-status.png)
+<img width="1280" height="185" alt="image" src="https://github.com/user-attachments/assets/e49751b9-66c8-445d-bb4b-8c7e2154daf4" />
+
 
 ### 3. Nginx Reverse Proxy
-![Nginx Configuration](screenshots/03-nginx.png)
+<img width="1280" height="434" alt="image" src="https://github.com/user-attachments/assets/4ad49146-c9e7-4544-bd98-d1fd06aba695" />
+
 
 ### 4. Jenkins CI/CD Pipeline
-![Jenkins Pipeline](screenshots/04-jenkins.png)
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/6f2640d5-9538-4772-bf01-adea351450f7" />
+<img width="1280" height="807" alt="image" src="https://github.com/user-attachments/assets/6a7c117d-e57f-499b-b9fb-c5e5845f22c3" />
+
+
 
 ### 5. Public HTTPS Application
-![HTTPS Application](screenshots/05-https.png)
+<img width="613" height="265" alt="image" src="https://github.com/user-attachments/assets/0c8591d2-4461-4b53-8745-821baf30fefe" />
+
 
 ### 6. Server Resource Monitoring
-![Server Monitoring](screenshots/06-monitoring.png)
+<img width="1280" height="242" alt="image" src="https://github.com/user-attachments/assets/8f68fe74-d724-4845-ab57-fe07c831d2a2" />
 
 
 

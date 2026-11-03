@@ -1,0 +1,19 @@
+
+{
+  "name": "junior-devops-assignment",
+  "version": "1.0.0",
+  "description": "Node.js application deployment using PM2, Nginx and Jenkins",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "devops",
+    "pm2",
+    "nginx",
+    "jenkins"
+  ],
+  "author": "Ruchita",
+  "license": "ISC"
+}

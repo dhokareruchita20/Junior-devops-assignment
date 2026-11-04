@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
         res.end(`
             <h1>Hello from DevOps!!!!!!</h1>
             <p>Welcome to my Junior DevOps Assignment.</p>
-            <p>Node.js Application is Running Successfully!</p>
+            <p>Node.js Application is Running Successfully!!</p>
         `);
     } else if (req.url === '/health') {
         res.writeHead(200, { 'Content-Type': 'application/json' });
